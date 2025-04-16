@@ -1,1 +1,2 @@
-Edit this file to change your mod's support info, or delete it if you don't need it.
+For any help regarding the mod, ask it in the Discord server!
+If you aren't in it, it means that you're not eligible :(
