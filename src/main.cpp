@@ -11,7 +11,7 @@ class $modify(GJAccountManager) {
 				_response = "https://gdbackup.141412.xyz";
 				break;
 			default:
-				return;
+				break;
 		}
 		GJAccountManager::handleIt(_requestSentSuccessfully,  _response, _tag, _httpType);
 	}
