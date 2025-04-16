@@ -4,6 +4,7 @@ using namespace geode::prelude;
 
 #include <Geode/modify/GJAccountManager.hpp>
 class $modify(GJAccountManager) {
+	$override
 	void handleIt(bool _requestSentSuccessfully, std::string _response, std::string _tag, GJHttpType _httpType) {
 		switch(_httpType) {
 			case GJHttpType::GetAccountBackupURL:
