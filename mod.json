@@ -9,7 +9,7 @@
 	"tags": ["paid", "online"],
 	"id": "jean.gdbackup",
 	"name": "GDBackup",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"developer": "Jean",
 	"description": "An alternate backup server."
 }
