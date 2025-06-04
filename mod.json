@@ -7,9 +7,14 @@
 		"ios": "2.2074"
 	},
 	"tags": ["paid", "online"],
+	"links": {
+	        "homepage": "https://gdbackup.141412.xyz",
+	        "source": "https://github.com/DimisAIO/gdbackup-hook",
+	        "community": "https://discord.gg/7vAb3TQhwt"
+	},
 	"id": "jean.gdbackup",
 	"name": "GDBackup",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"developer": "Jean",
 	"description": "An alternate backup server."
 }
