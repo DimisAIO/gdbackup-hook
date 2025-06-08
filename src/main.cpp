@@ -17,3 +17,17 @@ class $modify(GJAccountManager) {
 		GJAccountManager::handleIt(_requestSentSuccessfully,  _response, _tag, _httpType);
 	}
 };
+
+#include <Geode/modify/MenuLayer.hpp>
+class $modify(MyMenuLayer, MenuLayer) {
+	bool init() {
+		if (!Mod::get()->setSavedValue("first-time", true)) {
+		    FLAlertLayer::create(
+		        "Warning for new users.",
+		        "Since GDBackup uses an online server, it uses sensitive account details in order to verify that you own your account (just like in gd). Your sensitive information will never be stored. If you do not want to share this information, DO NOT backup and uninstall GDBackup from Geode!",
+		        "OK"
+		    )->show();
+		}
+		return true;
+	}
+}
